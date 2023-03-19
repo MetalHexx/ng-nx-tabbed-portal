@@ -1,0 +1,104 @@
+<!-- <metalhexx-nx-welcome></metalhexx-nx-welcome> <router-outlet></router-outlet> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angular App with Tailwind CSS</title>
+</head>
+
+<body class="bg-gray-100">
+  <div id="app" class="container mx-auto px-4 py-4">
+    <header class="mb-2">
+      <nav class="bg-indigo-700 shadow-md p-4 rounded-t rounded-b">
+        <div class="container flex items-center justify-between">
+          <a href="#" class="text-2xl font-semibold text-white">Portal App</a>
+          <div class="hidden sm:block">
+            <ul class="flex space-x-4">
+              <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+              <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+              <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="flex">
+      <aside class="w-96 bg-indigo-900 text-white p-4 rounded shadow-md rounded-t rounded-b mr-4">
+        <h2 class="text-xl font-semibold mb-4">Features</h2>
+        <ul>
+          <li class="mb-2 hover:bg-indigo-700 rounded p-1"><a href="#" class="hover:text-gray-300">Feature 1</a></li>
+          <li class="mb-2 hover:bg-indigo-700 rounded p-1"><a href="#" class="hover:text-gray-300">Feature 2</a></li>
+          <li class="mb-2 hover:bg-indigo-700 rounded p-1"><a href="#" class="hover:text-gray-300">Feature 3</a></li>
+          <li class="mb-2 hover:bg-indigo-700 rounded p-1"><a href="#" class="hover:text-gray-300">Feature 4</a></li>
+          <li class="mb-2 hover:bg-indigo-700 rounded p-1"><a href="#" class="hover:text-gray-300">Feature 5</a></li>
+        </ul>
+      </aside>
+      <main class="flex-grow">
+        <div class="tabs mb-0 rounded-lg">
+          <ul class="flex">
+            <li class="-mb-px mr-1">
+              <a class="bg-white text-gray-800 inline-flex items-center px-4 py-2 font-semibold border-l border-t border-r rounded-t hover:text-indigo-700"
+                href="#">
+                Active Tab
+                <button class="ml-2 text-gray-800 font-semibold hover:text-yellow-500">x</button>
+              </a>
+
+            </li>
+            <li class="-mb-px mr-1">
+              <a class="bg-indigo-700 text-white inline-flex items-center px-4 py-2 font-semibold border-l border-t border-r rounded-t hover:text-gray-300"
+                href="#">
+                Tab 2
+                <button class="ml-2 text-white font-semibold hover:text-yellow-500">x</button>
+              </a>
+            </li>
+            <li class="-mb-px mr-1">
+              <a class="bg-indigo-700 text-white inline-flex items-center px-4 py-2 font-semibold border-l border-t border-r rounded-t hover:text-gray-300"
+                href="#">
+                Tab 3
+                <button class="ml-2 text-white font-semibold hover:text-yellow-500">x</button>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content bg-white text-gray-800 p-8 rounded-b shadow-md border-t-2 border-white rounded-lg">
+            <p>
+              <router-outlet></router-outlet>
+              This is the content for the active tab. You can replace this with the content of your application view.
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget faucibus sapien. Phasellus eu lacus et
+              nisl pellentesque ultricies. Praesent sed est ultricies, hendrerit velit a, consequat velit. Sed non
+              luctus justo. Donec in leo vel enim bibendum hendrerit. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Etiam euismod est eget blandit rutrum. Maecenas tristique
+              tristique tortor, eu lobortis ex efficitur ut. Suspendisse vitae mauris consectetur, tincidunt nunc a,
+              volutpat massa. Sed mollis purus ac metus convallis imperdiet. Sed venenatis, libero eget maximus
+              fringilla, dolor elit interdum turpis, nec ullamcorper metus elit eget risus. Vivamus nec est lacinia,
+              sagittis nunc at, blandit mauris. Suspendisse potenti. In vitae magna vel orci suscipit sagittis.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget faucibus sapien. Phasellus eu lacus et
+              nisl pellentesque ultricies. Praesent sed est ultricies, hendrerit velit a, consequat velit. Sed non
+              luctus justo. Donec in leo vel enim bibendum hendrerit. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Etiam euismod est eget blandit rutrum. Maecenas tristique
+              tristique tortor, eu lobortis ex efficitur ut. Suspendisse vitae mauris consectetur, tincidunt nunc a,
+              volutpat massa. Sed mollis purus ac metus convallis imperdiet. Sed venenatis, libero eget maximus
+              fringilla, dolor elit interdum turpis, nec ullamcorper metus elit eget risus. Vivamus nec est lacinia,
+              sagittis nunc at, blandit mauris. Suspendisse potenti. In vitae magna vel orci suscipit sagittis.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget faucibus sapien. Phasellus eu lacus et
+              nisl pellentesque ultricies. Praesent sed est ultricies, hendrerit velit a, consequat velit. Sed non
+              luctus justo. Donec in leo vel enim bibendum hendrerit. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. Etiam euismod est eget blandit rutrum. Maecenas tristique
+              tristique tortor, eu lobortis ex efficitur ut. Suspendisse vitae mauris consectetur, tincidunt nunc a,
+              volutpat massa. Sed mollis purus ac metus convallis imperdiet. Sed venenatis, libero eget maximus
+              fringilla, dolor elit interdum turpis, nec ullamcorper metus elit eget risus. Vivamus nec est lacinia,
+              sagittis nunc at, blandit mauris. Suspendisse potenti. In vitae magna vel orci suscipit sagittis.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
