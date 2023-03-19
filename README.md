@@ -1,7 +1,7 @@
 # ng-nx-tabbed-portal
 
 ## Steps taken:
-#### *Note: Steps correlate to the repo commit history*
+#### *Note: Steps loosely correlate to the repo commit history*
 - Create NX Workspace
   - npx create-nx-workspace@latest
 - Add Tailwind CSS to the workspace / application
