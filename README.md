@@ -13,10 +13,15 @@
 - Add card styling and configuration
 - Import the common-ui library to the portal 
 - Replace the cards in the app.component with the new component
-- 
+- Add Storybook to the common-ui library
+  - npx nx generate @nrwl/angular:storybook-configuration common-ui --tsConfiguration --configureTestRunner --no-interactive
+  - Add styles.css to common-ui with tailwind imports  
+  - Configure common-ui project.json to specify the style location
+  - Add theme to tailwind.config.js in common-ui project
   
 ## Good Links:
   - https://nx.dev/recipes/other/using-tailwind-css-with-angular-projects
   - https://blog.nrwl.io/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479
-  - 
+  - https://nx.dev/packages/storybook
+  - https://marckassay.github.io/workspace/node/2022/03/07/angular-tailwind-nx-storybook.html
   
