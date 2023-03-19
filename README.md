@@ -10,6 +10,10 @@
   - npx nx generate @nrwl/angular:library common-ui --buildable --addTailwind --no-interactive
 - Add card component to common-ui
   - npx nx generate @nrwl/angular:component card --project=common-ui --no-interactive
+- Add card styling and configuration
+- Import the common-ui library to the portal 
+- Replace the cards in the app.component with the new component
+- 
   
 ## Good Links:
   - https://nx.dev/recipes/other/using-tailwind-css-with-angular-projects
