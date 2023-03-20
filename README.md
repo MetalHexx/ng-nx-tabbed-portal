@@ -1,5 +1,5 @@
 # ng-nx-tabbed-portal
-A POC using NX with Angular, Tailwind CSS, Storybook and Cypress.  Work in progress.
+A exploratory POC using NX with Angular, Tailwind CSS, Storybook and Cypress.  Work in progress.
 
 ## Steps taken:
 #### *Note: Steps loosely correlate to the repo commit history*
