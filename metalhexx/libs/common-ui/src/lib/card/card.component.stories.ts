@@ -11,7 +11,7 @@ export const Primary = {
     props: args,
   }),
   args: {
-    title: '',
-    url: '',
+    title: 'Example Title',
+    url: 'http://metalhexx.example.com',
   },
 };
