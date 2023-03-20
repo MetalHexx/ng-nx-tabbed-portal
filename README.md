@@ -1,4 +1,5 @@
 # ng-nx-tabbed-portal
+A POC using NX with Angular, Tailwind CSS, Storybook and Cypress.  Work in progress.
 
 ## Steps taken:
 #### *Note: Steps loosely correlate to the repo commit history*
@@ -14,7 +15,7 @@
 - Import the common-ui library to the portal 
 - Replace the cards in the app.component with the new component
 - Add Storybook to the common-ui library
-  - `npx nx generate @nrwl/angular:storybook-configuration common-ui` --tsConfiguration --configureTestRunner --no-interactive
+  - `npx nx generate @nrwl/angular:storybook-configuration common-ui --tsConfiguration --configureTestRunner --no-interactive`
   - Add styles.css to common-ui with tailwind imports  
   - Configure common-ui project.json to specify the style location
   - Add theme to tailwind.config.js in common-ui project
