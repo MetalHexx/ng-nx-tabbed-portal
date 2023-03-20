@@ -23,6 +23,7 @@
   - Added storybook story for header
     - npx nx generate @nrwl/angular:stories common-ui --no-interactive
   - Replace app.component header with new component
+- Added tailwind.config.js to workspace folder to reduce duplication 
 
 
 ## TODO
