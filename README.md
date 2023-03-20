@@ -23,6 +23,10 @@
   - Added storybook story for header
     - npx nx generate @nrwl/angular:stories common-ui --no-interactive
   - Replace app.component header with new component
+
+
+## TODO
+- Add incremental builds
   
 ## Good Links:
   - https://nx.dev/recipes/other/using-tailwind-css-with-angular-projects
