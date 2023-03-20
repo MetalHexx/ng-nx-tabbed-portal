@@ -24,6 +24,8 @@
     - `npx nx generate @nrwl/angular:stories common-ui --no-interactive`
   - Replace app.component header with new component
 - Added tailwind.config.js to workspace folder to reduce duplication
+- Added another application with alternate styling
+  - Used an "override" tailwind.config.js to alter theme
 
 
 ## Todo:

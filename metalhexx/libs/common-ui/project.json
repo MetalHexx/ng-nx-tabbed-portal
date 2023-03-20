@@ -7,9 +7,7 @@
   "targets": {
     "build": {
       "executor": "@nrwl/angular:ng-packagr-lite",
-      "outputs": [
-        "{workspaceRoot}/dist/{projectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
         "project": "libs/common-ui/ng-package.json",
         "tailwindConfig": "libs/common-ui/tailwind.config.js"
@@ -26,9 +24,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "{workspaceRoot}/coverage/{projectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
         "jestConfig": "libs/common-ui/jest.config.ts",
         "passWithNoTests": true
@@ -42,9 +38,7 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
+      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
           "libs/common-ui/**/*.ts",
@@ -59,9 +53,7 @@
         "configDir": "libs/common-ui/.storybook",
         "browserTarget": "common-ui:build-storybook",
         "compodoc": false,
-        "styles": [
-          "libs/common-ui/src/styles.css"
-        ]
+        "styles": ["libs/common-ui/src/styles.css"]
       },
       "configurations": {
         "ci": {
@@ -71,14 +63,10 @@
     },
     "build-storybook": {
       "executor": "@storybook/angular:build-storybook",
-      "outputs": [
-        "{options.outputDir}"
-      ],
+      "outputs": ["{options.outputDir}"],
       "options": {
         "outputDir": "dist/storybook/common-ui",
-        "styles": [
-          "libs/common-ui/src/styles.css"
-        ],
+        "styles": ["libs/common-ui/src/styles.css"],
         "configDir": "libs/common-ui/.storybook",
         "browserTarget": "common-ui:build-storybook",
         "compodoc": false
