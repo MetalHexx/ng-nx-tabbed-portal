@@ -18,6 +18,11 @@
   - Add styles.css to common-ui with tailwind imports  
   - Configure common-ui project.json to specify the style location
   - Add theme to tailwind.config.js in common-ui project
+- Created header component
+  - npx nx generate @nrwl/angular:component header --project=common-ui --no-interactive
+  - Added storybook story for header
+    - npx nx generate @nrwl/angular:stories common-ui --no-interactive
+  - Replace app.component header with new component
   
 ## Good Links:
   - https://nx.dev/recipes/other/using-tailwind-css-with-angular-projects
