@@ -3,12 +3,5 @@
   <p class="mb-xl flex-1">
     <ng-content></ng-content>
   </p>
-  <a
-    class="py-sm px-md bg-primary-dark hover:bg-primary text-white flex self-end"
-    href="{{ url }}"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Show me!
-  </a>
+  <metalhexx-button [url]="url" [text]="'Show Me!'"></metalhexx-button>
 </div>
