@@ -32,6 +32,7 @@ A POC using NX with Angular, Tailwind CSS, Storybook and Cypress.  Work in progr
 ## Todo:
 - Add incremental builds
 - Add a tailwind theme preset as a library
+- Add a tabbed interface that dynamically builds a tabs based on visited routes.
   
 ## Good Links:
   - https://nx.dev/recipes/other/using-tailwind-css-with-angular-projects
