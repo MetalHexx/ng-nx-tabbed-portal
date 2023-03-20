@@ -21,11 +21,13 @@ export const Primary = (args: CardComponent) => ({
   `,
 });
 Primary.args = {
+  /**
+   * Is this the principal call to action on the page?
+   */
   title: 'My Card Title',
   url: 'https://www.example.com',
   content: `
-    This is the content of my card.
-    It can include any HTML elements and directives that are supported by Angular.
+    Example card content.
   `,
 };
 
